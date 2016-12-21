@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Search"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always"
+        />
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/First_Name"
+            android:orderInCategory="1"
+            app:showAsAction="never"
+            android:title="@string/First_Name"
+        />
+        <item
+            android:id="@+id/Last_Name"
+            android:orderInCategory="1"
+            app:showAsAction="never"
+            android:title="@string/Last_Name"
+            />
+
+
+    </group>
+
+</menu>
